@@ -35,11 +35,24 @@
     padding-bottom: 2px;
 }
 
-section.onlinecourses{
+section.onlinecourses, section.classroom-training{
     padding-top: 30px;
     padding-bottom: 30px;
 }
 
-.courses-widget{
+.courses-widget, .classroom-widget{
     text-align: center;
+}
+
+.coursecard{
+    text-align: center;
+}
+
+.innercard{
+    margin-top: 1em;
+    margin-bottom:0.5em;
+}
+
+.classroom-training:hover{
+    background-color: whitesmoke;
 }
