@@ -1,0 +1,239 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css"
+        integrity="sha384-DhY6onE6f3zzKbjUPRc2hOzGAdEf4/Dz+WJwBvEYL/lkkIsI3ihufq9hk9K4lVoK" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Home</title>
+</head>
+
+<body>
+
+    <!--NAVIGATION BAR-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top customnav">
+        <div class="container">
+            <a class="navbar-brand" href="#">MySite</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <a href="#" class="btn btn-outline-success btn-nav" data-toggle="modal"
+                        data-target="#registermodal">Register</a>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!--HOME BANNER-->
+
+    <header class="main-banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-md-8">
+                    <div class="main-banner-content">
+                        <h1>Title for the banner</h1>
+                        <p>This is text for the banner. This is text for the banner. This is text for the banner, This
+                            is text for the banner.
+                            This is text for the bannerThis is text for the bannerThis is text for the banner This is
+                            text for the banner
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row d-none d-sm-block">
+                <div class="col-lg-6 col-md-6">
+                    <form>
+                        <div class="input-group mt-3">
+                            <input type="search" class="form-control" placeholder="Search for..."
+                                aria-label="Search for..." aria-describedby="button-addon2">
+                            <button class="btn btn-success" type="submit">
+                                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-search"
+                                    fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd"
+                                        d="M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z" />
+                                    <path fill-rule="evenodd"
+                                        d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z" />
+                                </svg>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="row d-sm-none d-md-none d-lg-none d-xl-none d-xxl-none">
+                <div class="col-lg-12 col-md-12">
+                    <a href="#" class="btn btn-success btn-block mt-3" data-toggle="modal"
+                        data-target="#registermodal">Register</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!--FEATURES LIST-->
+    <section class="features">
+        <div class="container">
+            <div class="row">
+                <div class="col lg-3 col-md-3">
+                    <div class="feature-holder">
+                        <h2>
+                            <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-clock-history"
+                                fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd"
+                                    d="M8.515 1.019A7 7 0 0 0 8 1V0a8 8 0 0 1 .589.022l-.074.997zm2.004.45a7.003 7.003 0 0 0-.985-.299l.219-.976c.383.086.76.2 1.126.342l-.36.933zm1.37.71a7.01 7.01 0 0 0-.439-.27l.493-.87a8.025 8.025 0 0 1 .979.654l-.615.789a6.996 6.996 0 0 0-.418-.302zm1.834 1.79a6.99 6.99 0 0 0-.653-.796l.724-.69c.27.285.52.59.747.91l-.818.576zm.744 1.352a7.08 7.08 0 0 0-.214-.468l.893-.45a7.976 7.976 0 0 1 .45 1.088l-.95.313a7.023 7.023 0 0 0-.179-.483zm.53 2.507a6.991 6.991 0 0 0-.1-1.025l.985-.17c.067.386.106.778.116 1.17l-1 .025zm-.131 1.538c.033-.17.06-.339.081-.51l.993.123a7.957 7.957 0 0 1-.23 1.155l-.964-.267c.046-.165.086-.332.12-.501zm-.952 2.379c.184-.29.346-.594.486-.908l.914.405c-.16.36-.345.706-.555 1.038l-.845-.535zm-.964 1.205c.122-.122.239-.248.35-.378l.758.653a8.073 8.073 0 0 1-.401.432l-.707-.707z" />
+                                <path fill-rule="evenodd"
+                                    d="M8 1a7 7 0 1 0 4.95 11.95l.707.707A8.001 8.001 0 1 1 8 0v1z" />
+                                <path fill-rule="evenodd"
+                                    d="M7.5 3a.5.5 0 0 1 .5.5v5.21l3.248 1.856a.5.5 0 0 1-.496.868l-3.5-2A.5.5 0 0 1 7 9V3.5a.5.5 0 0 1 .5-.5z" />
+                            </svg>
+                        </h2>
+                        <h3>Feature title</h3>
+                        <p>Description of the feature featureeeeeeee Description Description of the feature
+                            featureeeeeeee
+                            of the feature featureeeeeeee</p>
+                    </div>
+                </div>
+                <div class="col lg-3 col-md-3">
+                    <div class="feature-holder">
+                        <h2>
+                            <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-bar-chart-line"
+                                fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd"
+                                    d="M11 2a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v12h.5a.5.5 0 0 1 0 1H.5a.5.5 0 0 1 0-1H1v-3a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3h1V7a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v7h1V2zm1 12h2V2h-2v12zm-3 0V7H7v7h2zm-5 0v-3H2v3h2z" />
+                            </svg>
+                        </h2>
+                        <h3>Feature title</h3>
+                        <p>Description of the feature featureeeeeeee Description Description of the feature
+                            featureeeeeeee
+                            of the feature featureeeeeeee</p>
+                    </div>
+                </div>
+                <div class="col lg-3 col-md-3">
+                    <div class="feature-holder">
+                        <h2>
+                            <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-brightness-high"
+                                fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd"
+                                    d="M8 11a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm0 1a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z" />
+                            </svg>
+                        </h2>
+                        <h3>Feature title</h3>
+                        <p>Description of the feature featureeeeeeee Description Description of the feature
+                            featureeeeeeee
+                            of the feature featureeeeeeee</p>
+                    </div>
+                </div>
+                <div class="col lg-3 col-md-3">
+                    <div class="feature-holder">
+                        <h2>
+                            <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chat-right-dots"
+                                fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd"
+                                    d="M2 1h12a1 1 0 0 1 1 1v11.586l-2-2A2 2 0 0 0 11.586 11H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1zm12-1a2 2 0 0 1 2 2v12.793a.5.5 0 0 1-.854.353l-2.853-2.853a1 1 0 0 0-.707-.293H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h12z" />
+                                <path
+                                    d="M5 6a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0z" />
+                            </svg>
+                        </h2>
+                        <h3>Feature title</h3>
+                        <p>Description of the feature featureeeeeeee Description Description of the feature
+                            featureeeeeeee
+                            of the feature featureeeeeeee</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--ONLINE COURSES SECTION-->
+    <section class="onlinecourses">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6 col-md-6">
+                    <div class="courses-widget">
+                        <h2>Online Courses</h2>
+                        <p>By clicking the button you will get to our list of online courses we're offering at the
+                            moment.
+                            We hope you find what you're looking for!
+                        </p>
+                        <a href="#" class="btn btn-warning">View all courses</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal -->
+    <div class="modal fade" id="registermodal" tabindex="-1" aria-labelledby="registermodal" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Register</h5>
+                    <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="custom-divider"></div>
+                <div class="modal-body">
+                    <p>
+                        Register now to get the latest news, discounts, and more...
+                    </p>
+                    <form>
+                        <div class="mb-3">
+                            <input type="text" placeholder="Full Name" required class="form-control">
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" placeholder="Email" required class="form-control">
+                        </div>
+                        <div class="mb-3">
+                            <input type="tel" placeholder="Phone Number" class="form-control">
+                        </div>
+                        <div class="mb-3">
+                            <input type="text" placeholder="Course name" class="form-control">
+                        </div>
+                        <div class="mb-3">
+                            <input type="submit" value="Register Now" class="btn btn-success btn-block">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.min.js"
+        integrity="sha384-5h4UG+6GOuV9qXh6HqOLwZMY4mnLPraeTrjT5v07o347pj6IkfuoASuGBhfDsp3d"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
