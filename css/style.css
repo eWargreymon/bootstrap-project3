@@ -53,6 +53,74 @@ section.onlinecourses, section.classroom-training{
     margin-bottom:0.5em;
 }
 
-.classroom-training:hover{
+.classroom-training:hover, .reviews-slider:hover{
     background-color: whitesmoke;
+}
+
+.aside-courses{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.aside-courses-text{
+    padding-left: 20px;
+    color: black;
+}
+
+.aside-courses:hover{
+    background-color: whitesmoke;
+}
+
+.review-title{
+    margin-top: 2em;
+    padding-bottom: 1em;
+    text-align: center;
+}
+
+.reviewcard{
+    margin-top: 1em;
+    text-align: center;
+}
+
+.reviewcard > .card-body > img{
+    margin-bottom: 10px;
+    width: 40%;
+}
+
+.card-title{
+    font-weight: bold;
+}
+
+.reviewcard > .card-body > .card-text{
+    font-style: italic;
+}
+
+.star{
+    color: gold;
+}
+
+.main-footer{
+    margin-top: 20px;
+    padding-top: 25px;
+    padding-bottom: 5px;
+}
+
+.main-footer ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.main-footer ul li a, address a{
+    text-decoration: none;
+    font-size: 90%;
+    color: whitesmoke;
+}
+
+.main-footer ul li a:hover, address a:hover{
+    color: green;
+}
+
+.copy{
+    text-align: center;
 }
